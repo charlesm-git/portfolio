@@ -1,0 +1,36 @@
+#:kivy 2.3.1
+#:import Factory kivy.factory.Factory
+
+<BaseMDNavigationItem>
+    MDNavigationItemIcon:
+        icon: root.icon
+    MDNavigationItemLabel:
+        text: root.text
+
+
+<MainScreenManager>:
+    orientation: 'vertical'
+    MDScreenManager:
+        id: screen_manager
+        AscentListScreen:
+            name: 'ascent-list'
+        AscentScreen:
+            name: 'ascent'
+        LocationScreen:
+            name: 'location'
+
+    MDNavigationBar:
+        on_switch_tabs: root.on_switch_tabs(args[1])
+        BaseMDNavigationItem:
+            name: 'ascent-list'
+            icon: "checkbox-marked-outline"
+            text: "Ascents"
+            active: True
+        BaseMDNavigationItem:
+            name: 'statistic'
+            icon: "chart-donut-variant"
+            text: "Statistic"
+        BaseMDNavigationItem:
+            name: 'settings'
+            icon: "cog"
+            text: "Settings"
