@@ -34,6 +34,16 @@ Welcome! This repository showcases some of my most interesting projects, demonst
 - **Stack:** `Python, FastAPI, Pydantic, SQLite, SQLAlchemy`
 
 ---
+### **Bleau.info Statistics Front End**  
+🔗 [Repository Link](https://github.com/charlesm-git/bleauinfo-frontend)  
+📊 A React-based web app providing interactive visualizations of climbing statistics from the Bleau.info API. Designed for smooth user experience and insightful data exploration.  
+*Currently being developed, subject to major changes.*
+- **Dynamic Charts**: Uses Recharts for responsive line and bar charts showing trends and comparisons
+- **State Management**: Efficiently handles data updates and UI state with React hooks
+- **Stack:** `React, Vite, React Routing, Rechart, Tailwind` 
+
+
+---
 
 ### **Django REST API - Project & Issue Tracker**  
 🔗 [Repository Link](https://github.com/charlesm-git/API_Django_REST)  
