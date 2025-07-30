@@ -5,13 +5,12 @@ Welcome! This repository showcases some of my most interesting projects, demonst
 ## 📌 **Projects**  
 
 ### **Astat - Climbing Log & Stats App**  
+🔗 [Repository Link](https://github.com/charlesm-git/Astat)  
 📱 A mobile app designed for climbers to track their ascents, analyze performance, and create custom boulder to-do lists.  
 - **Fully local application** with offline functionality  
 - **Built with Python & Kivy**  
 - **Not released on app stores yet**  
 - **Stack:** `Python, Kivy, SQLAlchemy`
-
-🔗 More details & code snippets available in the **Astat folder**  
 
 ---
 
@@ -20,7 +19,7 @@ Welcome! This repository showcases some of my most interesting projects, demonst
 📊 An asynchronous Python scraper for **personal use only**, collecting data from the bleau.info website (40,000+ pages).
 - **Async HTTP:** Uses `aiohttp` and `asyncio` for high-throughput scraping  
 - **Database:** Stores most of publicly available information
-- **Stack:** `Python, aiohttp, asyncio, SQLite, SQLAlchemy`
+- **Stack:** `Python, aiohttp, asyncio, SQLite, SQLAlchemy, Beautifulsoup`
 
 
 ---
@@ -37,7 +36,7 @@ Welcome! This repository showcases some of my most interesting projects, demonst
 ### **Bleau.info Statistics Front End**  
 🔗 [Repository Link](https://github.com/charlesm-git/bleauinfo-frontend)  
 📊 A React-based web app providing interactive visualizations of climbing statistics from the Bleau.info API. Designed for smooth user experience and insightful data exploration.  
-*Currently being developed, subject to major changes.*
+*Currently being developed, more features are coming*
 - **Dynamic Charts**: Uses Recharts for responsive line and bar charts showing trends and comparisons
 - **State Management**: Efficiently handles data updates and UI state with React hooks
 - **Stack:** `React, Vite, React Routing, Rechart, Tailwind` 
