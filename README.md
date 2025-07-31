@@ -6,7 +6,7 @@ Welcome! This repository showcases some of my most interesting projects, demonst
 
 ### **Astat - Climbing Log & Stats App**  
 🔗 [Repository Link](https://github.com/charlesm-git/Astat)  
-📱 A mobile app designed for climbers to track their ascents, analyze performance, and create custom boulder to-do lists.  
+📱 A mobile app designed for climbers to track their ascents, analyze performance, and create custom boulder to-do lists. Screenshots of the app are available directly on the repository.    
 - **Fully local application** with offline functionality  
 - **Built with Python & Kivy**  
 - **Not released on app stores yet**  
@@ -36,11 +36,12 @@ Welcome! This repository showcases some of my most interesting projects, demonst
 ### **Bleau.info Statistics Front End**  
 🔗 [Repository Link](https://github.com/charlesm-git/bleauinfo-frontend)  
 📊 A React-based web app providing interactive visualizations of climbing statistics from the Bleau.info API. Designed for smooth user experience and insightful data exploration.  
-*Currently being developed, more features are coming*
+*Currently being developed. The design is still minimalist, more features are coming soon.*
 - **Dynamic Charts**: Uses Recharts for responsive line and bar charts showing trends and comparisons
 - **State Management**: Efficiently handles data updates and UI state with React hooks
 - **Stack:** `React, Vite, React Routing, Rechart, Tailwind` 
-
+  
+[Link to the demo frontend](https://bleau-info-stats-frontend-948104408177.europe-west1.run.app)
 
 ---
 
