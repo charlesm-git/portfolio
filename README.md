@@ -14,7 +14,7 @@ Welcome! This repository showcases some of my most interesting projects, demonst
 
 ---
 
-### **Bleau.info Scraper** 
+### **Bleau.info Statistics - Scraper** 
 🔗 [Repository Link](https://github.com/charlesm-git/bleauinfo-scraper)  
 📊 An asynchronous Python scraper for **personal use only**, collecting data from the bleau.info website (40,000+ pages).
 - **Async HTTP:** Uses `aiohttp` and `asyncio` for high-throughput scraping  
@@ -24,7 +24,7 @@ Welcome! This repository showcases some of my most interesting projects, demonst
 
 ---
 
-### **Bleau.info Statistics API**  
+### **Bleau.info Statistics - API**  
 🔗 [Repository Link](https://github.com/charlesm-git/bleauinfo-api)  
 📈 A *FastAPI* backend serving climb statistics from the bleau.info dataset. Ideal for powering a React frontend with real-time charts and tables.  
 - **RESTful Endpoints:** A large variety of endpoints for data retrievable. Easily customizable depending on Frontend needs
@@ -33,7 +33,7 @@ Welcome! This repository showcases some of my most interesting projects, demonst
 - **Stack:** `Python, FastAPI, Pydantic, SQLite, SQLAlchemy`
 
 ---
-### **Bleau.info Statistics Front End**  
+### **Bleau.info Statistics - Front End**  
 🔗 [Repository Link](https://github.com/charlesm-git/bleauinfo-frontend)  
 📊 A React-based web app providing interactive visualizations of climbing statistics from the Bleau.info API. Designed for smooth user experience and insightful data exploration.  
 *Currently being developed. The design is still minimalist, more features are coming soon.*
@@ -42,6 +42,17 @@ Welcome! This repository showcases some of my most interesting projects, demonst
 - **Stack:** `React, Vite, React Routing, Rechart, Tailwind` 
   
 [Link to the demo frontend](https://bleau-info-stats-frontend-948104408177.europe-west1.run.app)
+
+---
+
+### **Bleau.info Statistics - ML Models**  
+🔗 [Repository Link](https://github.com/charlesm-git/bleauinfo-ML)  
+🧠 Experimental machine learning models for exploring boulder similarity, recommendations, and pattern analysis from the bleau.info dataset.  
+This repository serves as a staging ground for model prototyping before integration into the scraper or API layers.  
+- **Similarity Models:** Sparse matrix-based Jaccard, Cosine, and domain-specific similarity techniques  
+- **Pipeline Compatibility:** Outputs are used directly by the API or at data scraping time  
+- **Performance-Driven:** Iterative testing for memory usage, computation speed, and model utility  
+- **Stack:** `Python, NumPy, SciPy, scikit-learn, pandas`
 
 ---
 
