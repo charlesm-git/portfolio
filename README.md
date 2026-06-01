@@ -30,7 +30,7 @@ Welcome! This repository showcases some of my most interesting projects, demonst
 - **State Management**: Efficiently handles data updates and UI state with React hooks
 - **Stack:** `React, Vite, React Routing, Rechart, Tailwind` 
   
-[Link to the demo frontend](https://bleau-info-stats-frontend-948104408177.europe-west1.run.app](https://matchit-frontend-13999527716.europe-west1.run.app)
+[Link to the demo frontend](https://matchit-frontend-13999527716.europe-west1.run.app)
 - Recommendation system only works for the Ticino area for now.
 
 ---
