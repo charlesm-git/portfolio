@@ -6,28 +6,29 @@ Welcome! This repository showcases some of my most interesting projects, demonst
 
 ### **Climbing Statistics - Scraper** 
 🔗 [Repository Link](https://github.com/charlesm-git/matchit-scraper)  
-📊 An asynchronous Python scraper for **personal use only**, collecting data from the bleau.info website (40,000+ pages).
-- **Async HTTP:** Uses `aiohttp` and `asyncio` for high-throughput scraping  
+📊 An asynchronous Python scraper for **personal use only**, collecting data from the 8a.nu website (100,000+ pages).
+- **Human-Like Behavior:** Implements strong rate limiting and static headers via session management to simulate natural user behavior and avoid bot detection  
 - **Database:** Stores most of publicly available information
-- **Stack:** `Python, aiohttp, asyncio, SQLite, SQLAlchemy, Beautifulsoup`
+- **Stack:** `Python, requests, PostgreSQL, SQLAlchemy, Beautifulsoup`
 
 ---
 
 ### **Climbing Statistics - API**  
 🔗 [Repository Link](https://github.com/charlesm-git/matchit-api)  
-📈 A *FastAPI* backend serving climb statistics from the bleau.info dataset. Ideal for powering a React frontend with real-time charts and tables.  
+📈 A *FastAPI* backend serving climb statistics from the 8a.mu dataset. Ideal for powering a React frontend with real-time charts and tables.  
 - **RESTful Endpoints:** A large variety of endpoints for data retrievable. Easily customizable depending on Frontend needs
 - **SQLAlchemy + Pydantic:** Clean CRUD layer with SQLAlchemy models and Pydantic schemas for validation  
-- **Database (read-only):** Bundles the scraped SQLite file for read-only production use, with possible migration to PostgreSQL
-- **Stack:** `Python, FastAPI, Pydantic, SQLite, SQLAlchemy`
+- **Deduplication Logic:** Intelligent merging of duplicate boulder ascents to maintain data integrity and consistency
+- **Stack:** `Python, FastAPI, Pydantic, PostgreSQL, SQLAlchemy`
 
 ---
 
 ### **Climbing Statistics - Front End**  
 🔗 [Repository Link](https://github.com/charlesm-git/matchit-frontend)  
-📊 A React-based web app providing interactive visualizations of climbing statistics from the Bleau.info API. Designed for smooth user experience and insightful data exploration.  
+📊 A React-based web app providing interactive visualizations of climbing statistics from the 8a.nu API. Designed for smooth user experience and insightful data exploration.  
 - **Dynamic Charts**: Uses Recharts for responsive line and bar charts showing trends and comparisons
 - **State Management**: Efficiently handles data updates and UI state with React hooks
+- **Admin Panel**: Comprehensive data management interface featuring deduplication logic to merge and clean duplicate boulder records
 - **Stack:** `React, Vite, React Routing, Rechart, Tailwind` 
   
 [Link to the demo frontend](https://matchit-frontend-13999527716.europe-west1.run.app)
