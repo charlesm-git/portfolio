@@ -47,6 +47,17 @@ This repository serves as a staging ground for model prototyping before integrat
 
 --- 
 
+
+### **Job Searcher - Automated Job Search & CV Tailoring**  
+🔗 [Repository Link](https://github.com/charlesm-git/job-searcher)  
+🤖 A local daily pipeline that scrapes the last 24h of LinkedIn postings, scores each one for relevance with an LLM, tailors a CV and cover letter for the good matches, and writes a daily report into an Obsidian vault.  
+- **LLM Pipeline:** Two-stage design — a cheap relevance pre-filter, then tailoring only on the selected jobs, keeping token usage minimal  
+- **Scraping & Dedup:** Guest endpoint scraping (no login) with conservative throttling and SQLite-based deduplication across runs  
+- **Fully Automated:** Scheduled daily via a macOS LaunchAgent, running end-to-end without interaction  
+- **Stack:** `Python, requests, BeautifulSoup, SQLite, PyYAML, Claude CLI`
+
+---
+
 ### **Astat - Climbing Log & Stats App**  
 🔗 [Repository Link](https://github.com/charlesm-git/Astat)  
 📱 A mobile app designed for climbers to track their ascents, analyze performance, and create custom boulder to-do lists. Screenshots of the app are available directly on the repository.    
